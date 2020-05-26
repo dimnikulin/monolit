@@ -235,6 +235,31 @@ background-color: #E5E5E5;
     color: #14213D;
 }
 
+
+
+#wrapMap {
+    position: relative;
+    cursor: help;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+.mapTitle {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px;
+    display: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+
 @media (max-width: 767.98px) {
     .carousel-caption {
         bottom: 25%;
@@ -264,6 +289,10 @@ background-color: #E5E5E5;
     .service_picture {
         height: 400px;
     }
+
+    iframe {
+        height: 300px;
+    };
 
 }
 
