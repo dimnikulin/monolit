@@ -1,0 +1,292 @@
+.company_name {
+text-align: center;
+text-transform: uppercase;
+color: #253237;
+height: 50px;
+padding-top: 13px;
+background-color: #fca311;
+}
+
+.company_goal {
+text-align: center;
+text-transform: uppercase;
+background-color: #fca311;
+color: #253237;
+height: 50px;
+padding-top: 13px;
+}
+
+.company_tel_email{
+    height: 50px;
+    background-color: #fca311;
+    height: 50px;
+    padding-top: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.company_tel_email a{
+    color: #253237;    
+}
+
+.company_tel_email a:hover {
+    text-decoration: none;
+    color: #253237;
+    
+}
+
+.btn-primary {
+background-color: #fca311;
+border-color: #fca311;
+text-transform: uppercase;
+}
+.btn-primary:hover {
+    background-color: #ffba08;
+    border-color: #ffba08;
+}
+
+
+.navigation_bar {
+    background-color: #14213d;
+    line-height: inherit;  
+}
+
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.bg-dark {
+    background-color: rgba(20, 33, 61, 0.5)!important;
+} 
+.btn-lg {
+    font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FCA311;
+}
+
+.services {
+    height: 70px;
+    text-align: center;
+    background-color: #14213d;
+    margin: 0 auto;
+    
+}
+
+.services h2 {
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.services_titles {
+    height: 70px;
+    text-align: center;
+    background-color: #14213D;
+}
+
+.services_titles h2 {
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+
+.img_service_link {
+    position: relative;
+    text-align: center;
+  
+
+   
+}
+
+.image {
+    display: block;
+    width: 350px;
+    height: 350px;
+    
+
+}
+
+
+.overlay {
+    position: absolute;
+    margin-top: -350px;
+    left: 0;
+    right: 0;
+    width: 350px;
+    height: 350px;
+    opacity: 0.3;
+    transition: .5s ease;
+    background-color: rgba(20, 33, 61, 0.5);
+    
+  }
+
+.centered {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:white;
+  }
+
+  .img_service_link a:hover .overlay{
+    opacity: 1;
+    background-color: #FCA311;
+  }
+ 
+
+h5 {
+    text-transform: uppercase;
+}
+
+.services_descr {
+    background-color: #E5E5E5;
+}
+
+.about_company {
+    background-color: #fca311;
+}
+
+.about_company_descr {
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+
+.about_company_descr a {
+    text-decoration: none;
+    color: #14213d;
+    }
+
+.about_company_descr a:hover {
+text-decoration: none;
+color:  #FCA311;
+
+}
+
+footer {
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+
+
+
+.service_picture, .service_picture_end {
+    width: 100%;
+    height: 400px;
+
+}
+
+.service_review, .service_review_end {
+    height: 400px;
+    background-color: #E5E5E5;
+    text-align: justify;
+}
+
+.contact_info {
+    height: 400px;
+    background-color: white;
+
+}
+
+.footer_services a {
+    text-transform: uppercase;
+}
+
+.footer_services a:hover {
+    color: #FCA311;
+    text-decoration: none;
+}
+
+
+
+.list-unstyled a:hover {
+    text-decoration: none;
+    color: #FCA311;
+}
+
+
+.footer-copyright a:hover {
+    text-decoration: none;
+    color: #FCA311;
+}
+#services_color {
+background-color: #E5E5E5;
+
+}
+#services_color h2 {
+    color: #14213D;
+}
+
+@media (max-width: 767.98px) {
+    .carousel-caption {
+        bottom: 25%;
+    }
+
+    .company_tel_email {
+        text-align: center;
+        background-color: #E5E5E5;
+    }
+
+
+    .reverse {
+    flex-direction: column-reverse;
+    }
+
+    .services_titles h2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-caption {
+        bottom: 25%;
+    }
+    .company_tel_email {
+        text-align: center;
+        background-color: #E5E5E5;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+        }
+
+        .services_titles h2 {
+            font-size: 1rem;
+        }
+
+    }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-caption {
+        bottom: 25%;
+    }
+
+    .services_titles h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        bottom: 35%;
+    }
+}
