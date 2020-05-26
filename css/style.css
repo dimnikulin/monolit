@@ -251,8 +251,20 @@ background-color: #E5E5E5;
     }
 
     .services_titles h2 {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
+
+    .service_review, .service_review_end {
+        height: 400px;
+        background-color: #E5E5E5;
+        text-align: justify;
+        font-size: 0.75rem;
+    }
+
+    .service_picture {
+        height: 400px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
